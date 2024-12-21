@@ -1,0 +1,8 @@
+# Dirsearch started Sat Dec 21 18:57:13 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u 192.168.106.219 -w /usr/share/wordlists/seclists/Discovery/Web-Content/big.txt -o dirsearch.scan --format=plain
+
+403   241B   http://192.168.106.219/cgi-bin/
+200    52KB  http://192.168.106.219/db
+200   114B   http://192.168.106.219/robots
+200   114B   http://192.168.106.219/robots.txt
+403   241B   http://192.168.106.219/server-status
+301   252B   http://192.168.106.219/textpattern    -> REDIRECTS TO: http://192.168.106.219/textpattern/

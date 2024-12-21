@@ -1,0 +1,41 @@
+# Nmap 7.94SVN scan initiated Sat Dec 21 18:24:43 2024 as: /usr/lib/nmap/nmap --privileged -A -oN general.scan -vv 192.168.106.219
+Nmap scan report for 192.168.106.219
+Host is up, received reset ttl 61 (0.082s latency).
+Scanned at 2024-12-21 18:24:50 +04 for 28s
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE REASON         VERSION
+80/tcp open  http    syn-ack ttl 61 Apache httpd 2.2.22 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/textpattern/textpattern
+|_http-server-header: Apache/2.2.22 (Debian)
+|_http-title: driftingblues
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/21%OT=80%CT=1%CU=40079%PV=Y%DS=4%DC=T%G=Y%TM=676
+OS:6CFCE%P=x86_64-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=10E%TI=Z%CI=I%II=I%TS=8)
+OS:SEQ(SP=FE%GCD=2%ISR=10E%TI=Z%CI=I%II=I%TS=8)OPS(O1=M578ST11NW4%O2=M578ST
+OS:11NW4%O3=M578NNT11NW4%O4=M578ST11NW4%O5=M578ST11NW4%O6=M578ST11)WIN(W1=3
+OS:890%W2=3890%W3=3890%W4=3890%W5=3890%W6=3890)ECN(R=Y%DF=Y%T=40%W=3908%O=M
+OS:578NNSNW4%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T
+OS:4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+
+OS:%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=N)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Uptime guess: 0.001 days (since Sat Dec 21 18:24:02 2024)
+Network Distance: 4 hops
+TCP Sequence Prediction: Difficulty=254 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 587/tcp)
+HOP RTT      ADDRESS
+1   85.21 ms 192.168.45.1
+2   85.18 ms 192.168.45.254
+3   85.25 ms 192.168.251.1
+4   85.37 ms 192.168.106.219
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec 21 18:25:18 2024 -- 1 IP address (1 host up) scanned in 35.16 seconds
